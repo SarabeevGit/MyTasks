@@ -1,0 +1,14 @@
+#Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn
+
+#  Задано число, которое мы превращаем в строку, составляем из нее строки вида nn и nn, выводим сумму числовых значений этих строк
+n=int(input())
+a=str(n)
+n1=a
+n2=a*2
+n3=a*3
+print(int(n1)+int(n2)+int(n3))
+
+# второй способ решения, без перевода в str и обратно
+# a=n*11 
+# b=n*111
+# print(a+b+n)
