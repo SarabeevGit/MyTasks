@@ -1,0 +1,14 @@
+# Write a Python program to get the n (non-negative integer) copies of the first 2 characters of a given string. 
+# Return the n copies of the whole string if the length is less than 2.
+
+def the_string(a,n):
+    x=len(a)
+    if x<2:
+        return a
+    else:
+        return a[:2]*n
+
+
+print(the_string('dsaasda',16))
+print(the_string('a',2))
+print(the_string('asldfhlas',10))
