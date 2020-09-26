@@ -1,0 +1,16 @@
+# Write a Python program to create a histogram from a given list of integers.
+
+# Создаем функцию, которая принимает список из чисел и выводит строку '@' умноженную на каждый элемент
+# Результат вывода похож на гистограмму
+
+
+def histogram(a):
+    x='@'
+    for i in a:
+        print(x*i)
+
+histogram([1,2,3,4,5,6,3])
+print()
+histogram([7,1,2,6,8])
+print()
+histogram([10,9,8,7,6,5,4,3,2,1])
