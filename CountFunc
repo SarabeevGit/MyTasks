@@ -1,0 +1,13 @@
+#Write a Python program to count the number 4 in a given list.
+
+Функция Count подсчитывает количество заданных символов или элементов в списке. Для вызова - list.count()
+
+a = [4,5,5,7,6,7,9,4,46,7]
+print(a.count(4))
+
+
+#или так
+
+
+a = list(map(int, input().split()))
+print(a.count(4))
