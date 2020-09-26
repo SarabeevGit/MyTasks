@@ -1,0 +1,12 @@
+# Write a Python program to concatenate all elements in a list into a string and return it.
+
+# Создаем функцию, которая принимает список из элементов и выводит строку состоящую из всех этих элементов
+
+def concat(a):
+    new_list=''
+    for i in a:
+        new_list=new_list+i
+    return new_list
+
+print(concat(['a','dDKGSKJSKJK','21321','sdfsdflkLKklnkfa']))
+print(concat(['1','5555555555','1111','0000000']))
