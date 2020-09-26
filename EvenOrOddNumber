@@ -1,0 +1,14 @@
+#Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
+
+#Создаем простую функцию, которая возвращает True если число четное и False если нечетное, на основе этого выводим сообщение-результат
+
+def even(x):
+    return x % 2 == 0
+
+
+a = int(input())
+
+if even(a) == True:
+    print(f'Ваше число {a} является четным')
+if even(a) == False:
+    print(f'Ваше число {a} является нечетным')
