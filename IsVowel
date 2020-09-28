@@ -1,0 +1,12 @@
+# Write a Python program to test whether a passed letter is a vowel or not
+
+# Пишем простую функцию, которая возвращает находится ли строка в строке из гласных букв
+
+
+def is_vowel(x):
+    vowels = 'aeuio'
+    return x in vowels
+
+
+print(is_vowel('a'))
+print(is_vowel('b'))
