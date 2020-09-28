@@ -1,0 +1,9 @@
+# Write a Python program that will accept the base and height of a triangle and compute the area
+
+def triangle_area(a,h):
+    s= a*h/2
+    return s
+
+a=int(input('Введите длину основы треугольника: '))
+h=int(input('Введите высоту треугольника: '))
+print(triangle_area(a,h))
