@@ -1,0 +1,11 @@
+# Write a Python program to check whether a specified value is contained in a group of values
+
+# функция принимает цифру и проверяет ее str вхождение в заданный список
+
+def is_contain(x):
+    list1 = input('ведите список: ')
+    return str(x) in list1
+
+
+a = int(input('Введите число: '))
+print(is_contain(a))
