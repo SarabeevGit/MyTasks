@@ -1,0 +1,14 @@
+# Write a Python program to sum of three given integers. However, if two values are equal sum will be zero
+
+#Создаем функцию, которая проверяет, равны ли числа между собой. Если хотя бы два равны, выводим "0". Если числа все разные - функция выводит сумму всех чисел
+
+def sum(a,b,c):
+    if a==b or a==c or b==c:
+        print('0')
+    else:
+        print(a+b+c)
+
+sum(1,2,3)
+sum(10,20,30)
+sum(5,27,5)
+sum(10,2,2)
